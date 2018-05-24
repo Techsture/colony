@@ -4,9 +4,10 @@ import random
 
 # Lists for character generation:
 from calculate_age import calculate_age
+from female_first_names import female_first_names
 from genders import genders
 from male_first_names import male_first_names
-from female_first_names import female_first_names
+from relationships import relationships
 from surnames import surnames
 
 CHARACTER_LIST = []
@@ -63,7 +64,7 @@ class Character:
 
 
 def main():
-  number_of_characters = random.randrange(10, 100)
+  number_of_characters = 3
   id_iterator = 0
   number_of_adult_males = 0
   number_of_childbearing_adult_females = 0
