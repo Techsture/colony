@@ -35,8 +35,9 @@ class Character:
 
 def main():
   character = Character()
+  print("\n")
   character.print_information()
-  print('\n')
+  print("\n")
 
 
 if __name__ == '__main__':
